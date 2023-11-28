@@ -1,0 +1,127 @@
+
+body{
+    background: radial-gradient(at top, white, white);
+    background-attachment: fixed
+}
+.bg-light {
+    background-color: #0a57c6 !important;
+}
+.bg-gradiente{
+    background: linear-gradient(-45deg,blue,white);
+}
+h1,h2,h3,h4,.nav-link{
+    font-family:  "Cooper Std Black";
+    color:  black;
+}
+h1{
+    -webkit-text-stroke: 2px blue;
+    color:  #1F1717;
+}
+.btn-rocoto{
+    position:absolute;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(blue,white), radial-gradient(blue, white);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    color: white
+}
+.btn-rocoto:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn-rocoto span{
+    padding: 7px 40px;
+    display: block
+}
+.form-control{
+    border-color:blue
+}
+.texto-personalizado {
+    color: Black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+/* estilos.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para el menú de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo del menú */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño del texto del logo o nombre del sitio */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* Color del texto de los enlaces en el menú */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del texto al pasar el ratón sobre los enlaces */
+}
+
+/* Estilos para la sección de bienvenida */
+.container {
+    margin-top: 50px; /* Espacio entre el menú y el contenido principal */
+}
+
+/* Estilos para la sección de historia */
+.display-3 {
+    color: #007bff; /* Color del título principal */
+}
+
+.btn-rocoto {
+    background-color: #dc3545; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Eliminar subrayado de enlace */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btn-rocoto:hover {
+    background-color: #c82333; /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+/* Otros estilos según sea necesario */

@@ -1,0 +1,106 @@
+imagen {
+    width: 100px;
+    height: 100px;
+    border: radius 90px;;
+    padding: 20px;
+    border: 2px saddlebrown;
+}
+.catalogo
+{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000 (10,7,7);
+
+}
+.fondo
+{
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size:cover;
+}
+a:link
+{
+    color:#FF7000;
+    font-size: 20px;
+}
+a:hover
+{
+    background: rgb(0, 224, 253);
+}
+a:active
+{
+    background: #63e600;
+}
+a:visited
+{
+    background: #f70b0b;
+}
+
+/* estilos.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para el menú de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo del menú */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño del texto del logo o nombre del sitio */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* Color del texto de los enlaces en el menú */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del texto al pasar el ratón sobre los enlaces */
+}
+
+/* Estilos para la sección de bienvenida */
+.container {
+    margin-top: 50px; /* Espacio entre el menú y el contenido principal */
+}
+
+/* Estilos para la sección de historia */
+.display-3 {
+    color: #007bff; /* Color del título principal */
+}
+
+.btn-rocoto {
+    background-color: #dc3545; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Eliminar subrayado de enlace */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btn-rocoto:hover {
+    background-color: #c82333; /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+/* Otros estilos según sea necesario */
+/* estilos.css */
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #007bff; /* Color de fondo de la barra de navegación */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important; /* Color del texto de la marca y los enlaces */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #fff !important; /* Color del texto al pasar el ratón sobre la marca y los enlaces */
+}
