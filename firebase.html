@@ -39,7 +39,11 @@
                 console.log(nombre, edad);
 
                 push(
-                    ref(database)
+                    ref(database, 'septimo'),
+                    {
+                        name: nombre,
+                        age: edad,
+                    }
                 );
 
 
